@@ -1,0 +1,530 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html {
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+body{
+    min-width: 1440px;
+    max-width: 100%;
+}
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 1440px;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+.img-header-back {
+    position: absolute;
+    min-width: 1440px;
+    width: 100%;
+    height: 90px;
+    z-index: -1;
+}
+.img-header-logo {
+    width: 80px;
+    height: 82px;
+}
+.header-onne {
+    display: flex;
+    width: 914px;
+    justify-content: space-between;
+}
+.header-onne button {
+    width: 140px;
+    height: 42px;
+    border-radius: 40px;
+}
+.header-onne button a {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    text-decoration: none;
+}
+#here {
+    background-color: #FF69D9;
+}
+#main {
+    display: flex;
+    min-width: 1440px;
+    height: 4580px;
+    justify-content: center;
+}
+.benefit {
+    position: absolute;
+    width: 1521px;
+    height: 578px;
+    top: 78px;
+    background-image: url("../../images/tiemnang/image 36.png");
+    background-size: contain;
+}
+.benefit img {
+    position: absolute;
+    width: 478.1751708984375px;
+    height: 319px;
+    top: 116px;
+    left: 17px;
+}
+.benefit .box {    
+    position: absolute;
+    width: 822px;
+    height: 461px;
+    top: 58px;
+    left: 608px;
+    border-radius: 50px;
+    background: linear-gradient(0deg, rgba(190, 116, 255, 0.9) 56.83%, rgba(255, 80, 206, 0.85) 99.6%);
+}
+.box .words {
+    position: absolute;
+    width: 784px;
+    height: 435px;
+    top: 18px;
+    left: 27px;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+}
+.words ul {
+    padding-inline-start: 40px;
+}
+.popjobs {
+    position: absolute;
+    width: 1521px;
+    height: 860px;
+    top: 651px;
+    background-image: url("../../images/tiemnang/Group1.png");
+    background-size: contain;
+}
+.rings {
+    position: absolute;
+    top: -45.45px;
+    left: 1114.46px;
+}
+.SD,.SE,.WD,.QC {
+    position: absolute;
+    width: 312.5555114746094px;
+    height: 437.5980224609375px;
+    top: 228px;
+    background-color: white;
+    border: solid 5px red;
+    border-radius: 35px;
+}
+.SD {
+    left: 47px;
+}
+.i52 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 79px;
+    left: 74px;
+}
+.SD p {
+    position: absolute;
+    width: 255.0856170654297px;
+    height: 58.478004455566406px;
+    top: 289px;
+    left: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+}
+.SE {
+    left: 416px;
+}
+.i51 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 79px;
+    left: 93.98px;
+}
+.SE p {
+    position: absolute;
+    width: 238.95370483398438px;
+    height: 58.478004455566406px;
+    top: 295.05px;
+    left: 36.07px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+}
+.WD {
+    left: 785px;
+}
+.i53 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 79px;
+    left: 80.97px;
+}
+.WD p {
+    position: absolute;
+    width: 228.87127685546875px;
+    height: 58.478004455566406px;
+    top: 289px;
+    left: 41.11px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+}
+.QC {
+    left: 1154px;
+}
+.i54 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 79px;
+    left: 80.95px;
+}
+.QC p {
+    position: absolute;
+    width: 260.1268310546875px;
+    height: 72.5933837890625px;
+    top: 289px;
+    left: 24.98px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+}
+.brands {
+    position: absolute;
+    width: 1521px;
+    height: 996px;
+    top: 1509px;
+    background-image: url("../../images/tiemnang/Group2.png");
+    background-size: contain;
+}
+.FPT,.VNG,.Viettel {
+    position: absolute;
+    width: 312.55999755859375px;
+    height: 493.6300048828125px;
+    top: 265px;
+    background-color: white;
+    border: solid 5px red;
+    border-radius: 35px;
+}
+.FPT {
+    left: 149px;
+}
+.FPT .logo {
+    position: absolute;
+    width: 362.6497497558594px;
+    height: 241.76649475097656px;
+    top: 76px;
+    left: -33.06px;
+}
+.FPT p {
+    position: absolute;
+    width: 217.3894805908203px;
+    height: 41.968544006347656px;
+    top: 358px;
+    left: 54.1px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+}
+.VNG {
+    left: 616px;
+}
+.VNG .logo {
+    position: absolute;
+    width: 312.55999755859375px;
+    height: 312.55999755859375px;
+}
+.VNG p {
+    position: absolute;
+    width: 264px;
+    height: 39px;
+    top: 358px;
+    left: 24px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+}
+.Viettel {
+    left: 1116px;
+}
+.Viettel .logo {
+    position: absolute;
+    width: 235.16253662109375px;
+    height: 147px;
+    top: 80px;
+    left: 38px;
+}
+.Viettel p {
+    position: absolute;
+    width: 209px;
+    height: 39px;
+    top: 358px;
+    left: 51px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+}
+.brands2 {
+    position: absolute;
+    width: 1521px;
+    height: 856px;
+    top: 2505px;
+    background-image: url("../../images/tiemnang/Group3.png");
+    background-size: cover;
+}
+.ring {
+    position: absolute;
+    width: 537.41790071px;
+    height: 537.41790071px;
+    top: -271px;
+    left: 500px;
+}
+.Google,.Microsoft,.Amazon,.Apple {
+    position: absolute;
+    width: 312.5555114746094px;
+    height: 494.038330078125px;
+    top: 281px;
+    background-color: white;
+    border: solid 5px red;
+    border-radius: 35px;
+}
+.Google {
+    left: 52px;
+}
+.Google .logo {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 133px;
+    left: 91px;
+}
+.Google p {
+    position: absolute;
+    width: 255px;
+    height: 29px;
+    top: 401.48px;
+    left: 28.775px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+}
+.Microsoft {
+    left: 421px;
+}
+.Microsoft .logo {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 133px;
+    left: 90.98px;
+}
+.Microsoft p {
+    position: absolute;
+    width: 255px;
+    height: 29px;
+    top: 401.48px;
+    left: 28.775px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+}
+.Amazon {
+    left: 790px;
+}
+.Amazon .logo {
+    position: absolute;
+    width: 288px;
+    height: 88.75472259521484px;
+    top: 149px;
+    left: 11.97px;
+}
+.Amazon p {
+    position: absolute;
+    width: 255px;
+    height: 29px;
+    top: 401.48px;
+    left: 28.775px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+}
+.Apple {
+    left: 1158px;
+}
+.Apple .logo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 97px;
+    left: 80.95px;
+}
+.Apple p {
+    position: absolute;
+    width: 255px;
+    height: 29px;
+    top: 401.48px;
+    left: 28.775px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+}
+.exp {
+    position: absolute;
+    width: 1521px;
+    height: 1219px;
+    top: 3361px;
+    background-image: url("../../images/tiemnang/Group4.png");
+    background-size: contain;
+}
+.flower {
+    position: absolute;
+    width: 319.02894805797234px;
+    height: 330.65348648017994px;
+    top: -128px;
+    left: -65px;
+    rotate: 125deg;
+    opacity: 0.8;
+}
+.Jr,.Mid,.Sr,.Tech,.Techer {
+    position: absolute;
+    width: 310px;
+    height: 490px;
+    background-color: white;
+    border: solid 5px red;
+    border-radius: 35px;
+}
+h1 {
+    position: absolute;
+    width: 301px;
+    height: 29px;
+    top: 20px;
+    left: 4.5px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+}
+.Jr {
+    top: 149px;
+    left: 165px;
+}
+.Jr .icon {
+    position: absolute;
+    width: 177px;
+    height: 177px;
+    top: 35px;
+    left: 67px;    
+}
+.Jr p {
+    position: absolute;
+    width: 299px;
+    height: 260px;
+    top: 220px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 100%;
+    text-align: center;
+}
+.Mid {
+    top: 149px;
+    left: 605px;
+}
+.Mid .icon {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 53px;
+    left: 80px;
+}
+.Mid p {
+    position: absolute;
+    width: 299px;
+    height: 260px;
+    top: 220px;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 100%;
+    text-align: center;
+}
+.Sr {
+    top: 149px;
+    left: 1044px;
+}
+.Sr .icon {
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    top: 50px;
+    left: 88px;
+}
+.Sr p {
+    position: absolute;
+    width: 299px;
+    height: 260px;
+    top: 220px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 100%;
+    text-align: center;
+}
+.Tech {
+    top: 671px;
+    left: 365px;
+}
+.Tech .icon {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 49px;
+    left: 79px;
+}
+.Tech p {
+    position: absolute;
+    width: 299px;
+    height: 260px;
+    top: 220px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 100%;
+    text-align: center;
+}
+.Techer {
+    top: 671px;
+    left: 835px;
+}
+.Techer .icon {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 63px;
+    left: 94px;
+}
+.Techer p {
+    position: absolute;
+    width: 299px;
+    height: 260px;
+    top: 220px;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 100%;
+    text-align: center;
+}
