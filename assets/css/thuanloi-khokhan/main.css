@@ -51,7 +51,7 @@ body{
 }
 .container{
     margin-top: 90px;
-    background-image: url(./images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 13.07.59\ 1.png);
+    background-image: url(/assets/images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 13.07.59\ 1.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -110,7 +110,7 @@ body{
 .thuanloi{
     width: 1409.29px;
     height: 324px;
-    background-image: url(./images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 22.21.03\ 1.png);
+    background-image: url(/assets/images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 22.21.03\ 1.png);
     background-size: 100%;
     position: relative;
     left: 59px;
@@ -197,7 +197,7 @@ body{
     height: 444px;
     position: relative;
     top: 95px;
-    background-image: url(./images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 22.53.41\ 1.png);
+    background-image: url(/assets/images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 22.53.41\ 1.png);
     background-size: 100%;
     left: 71px;
 }
@@ -260,7 +260,7 @@ body{
 .khokhan{
     width: 1382.93px;
     height: 324px;
-    background-image: url(./images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 21.49.32\ 1.png);
+    background-image: url(/assets/images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 21.49.32\ 1.png);
     background-size: 100%;
     position: relative;
     top: 190px;
@@ -299,7 +299,7 @@ body{
     top: 260.48px;
     width: 2295px;
     height: 1182px;
-    background-image: url(./images/thuanloi/IMG_0433.png);
+    background-image: url(/assets/images/thuanloi/IMG_0433.png);
     background-size: 65%;
     background-repeat: no-repeat;
 }
@@ -390,7 +390,7 @@ body{
 .footer{
     width: 2852.44px;
     height: 1585px;
-    background-image: url(./images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 23.23.55\ 2.png);
+    background-image: url(/assets/images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 23.23.55\ 2.png);
     background-size: 100%;
     position: relative;
     top: 300px;
@@ -398,7 +398,7 @@ body{
 .footer-back{
     width: 1585px;
     height: 1585px;
-    background-image: url(./images/thuanloi/IMG_0455.png);
+    background-image: url(/assets/images/thuanloi/IMG_0455.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
