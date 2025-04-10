@@ -819,6 +819,87 @@ h1 {
 .brands2 .Apple:hover{
     background-color: #F5FC97;    
 }
-.brands2 div p{
-   
+
+.exp div:hover{
+    background-color: #CAFFAC;
+}
+
+.exp div .icon{
+    transition: transform 0.5s ease;
+}
+
+.exp div:hover .icon{
+    transform: translateY(-60px);
+}
+.exp div:hover h1{
+    opacity: 0;
+  pointer-events: none;
+}
+
+.Jr p::after{
+    content: "Là những lập trình viên mới bắt đầu hoặc có ít kinh nghiệm. Thường có thể giải quyết các vấn đề đơn giản và cần hướng dẫn để hoàn thành các nhiệm vụ phức tạp hơn";
+}
+.Mid p::after{
+    content: "Là những lập trình viên có kinh nghiệm từ 2-5 năm. Đã có thể giải quyết các vấn đề phức tạp hơn mà không cần sự hướng dẫn nhiều như junior developer";
+}
+.Sr p::after{
+    content: "Là những lập trình viên có kinh nghiệm trên 5 năm, có khả năng tự động giải quyết các vấn đề phức tạp và đưa ra các giải pháp tối ưu, có khả năng lãnh đạo và hướng dẫn junior và mid-level developer";
+}
+.Tech p::after{
+    content: "Là những lập trình viên có trình độ cao, kinh nghiệm thực tế và có khả năng lãnh đạo đội nhóm. Tech lead thường đảm nhận trách nhiệm cao hơn trong quản lý và phát triển dự án";
+}
+.Techer p::after{
+    content: "Là những lập trình viên có trình độ cao, kinh nghiệm thực tế, khả năng lãnh đạo, chịu trách nhiệm quản lý, phát triển dự án và thiết kế kiến trúc hệ thống, đảm bảo tạo ra các giải pháp kỹ thuật phức tạp đáp ứng yêu cầu cao cấp của khách hàng.";
+}
+
+.Jr p:hover::after{
+    display: block;
+    margin-top: -80px;
+    width: 300px; 
+    text-align: center;     
+    word-wrap: break-word;
+    white-space: pre;
+    font-size: 22px;
+    content: "Mid-Level Developer \A(3-5 năm kinh nghiệm)\A\A Việt Nam \A 20-35 triệu VNĐ/tháng\A\A Quốc tế (Mỹ, Châu Âu)\A 90,000-120,000 USD/năm\A\A✅ Kinh nghiệm tốt, cơ hội\A thăng tiến, lương cao\A ❌ Áp lực tăng, cạnh tranh\A cao";
+
+}
+.Mid p:hover::after{
+    display: block;
+    margin-top: -90px;
+    width: 300px; 
+    text-align: center;     
+    word-wrap: break-word;
+    white-space: pre;
+    font-size: 22px;
+    content: "Junior Developer \A(1-3 năm kinh nghiệm)\A\A Việt Nam \A 10-20 triệu VNĐ/tháng\A\A Quốc tế (Mỹ, Châu Âu)\A 60,000-90,000 USD/năm\A\A✅ Học hỏi nhanh, công việc\A đa dạng, ít áp lực.\A ❌ Lương thấp, thiếu kinh\A nghiệm.";
+}
+.Sr p:hover::after{
+    display: block;
+    margin-top: -80px;
+    width: 300px; 
+    text-align: center;     
+    word-wrap: break-word;
+    white-space: pre;
+    font-size: 22px;
+    content: "Lead Developer \A(10+ năm kinh nghiệm)\A\A Việt Nam \A 60-100 triệu VNĐ/tháng\A\A Quốc tế (Mỹ, Châu Âu)\A 150,000-200,000 USD/năm\A\A✅ Kinh nghiệm dày dặn,\A lãnh đạo nhóm, lương cao\A ❌ Áp lực lớn, công việc\A phức tạp";
+}
+.Tech p:hover::after{
+    display: block;
+    margin-top: -80px;
+    width: 300px; 
+    text-align: center;     
+    word-wrap: break-word;
+    white-space: pre;
+    font-size: 22px;
+    content: "Technical Lead \A(10+ năm kinh nghiệm)\A\A Việt Nam \A 60-100 triệu VNĐ/tháng\A\A Quốc tế (Mỹ, Châu Âu)\A 150,000-200,000 USD/năm\A\A✅ Quản lý dự án, ảnh\A hưởng lớn, lương rất cao \A❌ Áp lực cực lớn, \Aít coding, nhiều quản lý";
+}
+.Techer p:hover::after{
+    display: block;
+    margin-top: -80px;
+    width: 300px; 
+    text-align: center;     
+    word-wrap: break-word;
+    white-space: pre;
+    font-size: 22px;
+    content: "Technical Lead \A(10+ năm kinh nghiệm)\A\A Việt Nam \A 60-100 triệu VNĐ/tháng\A\A Quốc tế (Mỹ, Châu Âu)\A 150,000-200,000 USD/năm\A\A✅ Quản lý dự án, ảnh\A hưởng lớn, lương rất cao \A❌ Áp lực cực lớn, \Aít coding, nhiều quản lý";
 }
