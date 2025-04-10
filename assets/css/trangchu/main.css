@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 body {
-  font-family: 'Inter', sans-serif;
+ 
   font-weight: 900;
 }
 
@@ -22,7 +21,7 @@ body{
     align-items: center;
     justify-content: space-between;
     z-index: 10;
-    font-family: 'Inter', sans-serif;
+   
 }
 
 .img-header-back {
@@ -48,7 +47,7 @@ body{
     width: 140px;
     height: 42px;
     border-radius: 40px;
-    font-family: 'Inter', sans-serif;
+   
 }
 
 .header-onne button a {
