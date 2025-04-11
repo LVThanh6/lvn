@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html {
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+body{
+    min-width: 1440px;
+    max-width: 100%;
+}
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 1440px;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+.img-header-back {
+    position: absolute;
+    min-width: 1440px;
+    width: 100%;
+    height: 90px;
+    z-index: -1;
+}
+.img-header-logo {
+    width: 80px;
+    height: 82px;
+}
+.header-onne {
+    display: flex;
+    width: 914px;
+    justify-content: space-between;
+}
+.header-onne button {
+    width: 140px;
+    height: 42px;
+    border-radius: 40px;
+}
+.header-onne button a {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    text-decoration: none;
+}
+#nut-trang {
+    background-color: #FF69D9;
+}
+#main {
+    display: flex;
+    position: relative;
+    min-width: 1521px;
+    height: 4451px;
+    top: 66px;
+    justify-content: center;
+    background-image: url("../../images/kienthuc/image 13.png");
+    background-size: contain;
+}
+.knowledge {
+    position: absolute;
+    width: 1521px;
+    height: 866px;
+}
+#line {
+    position: absolute;
+    width: 600px;
+    border: 1px solid lightgray;
+}
+.line1 {
+    top: 947.19px;
+}
+.language {
+    position: absolute;
+    width: 1521px;
+    height: 711px;
+    top: 990px;
+    background-image: url("../../images/kienthuc/image 34.png");
+    background-size: contain;
+}
+.language .words {
+    position: absolute;
+    width: 772.8783569335938px;
+    height: 804.5411987304688px;
+    top: 61px;
+    left: 34px;
+}
+.language .words h1 {
+    position: absolute;
+    width: 765.8783569335938px;
+    height: 111.46874237060547px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.language .words p {
+    position: absolute;
+    width: 465.76593017578125px;
+    height: 558.625px;
+    top: 168px;
+    left: 76px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.language .words p span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.ring {
+    position: absolute;
+    width: 267.33px;
+    height: 264.54px;
+    top: 540px;
+}
+.line2 {
+    top: 1728.31px;
+}
+.diagram {
+    position: absolute;
+    width: 1274px;
+    height: 684px;
+    top: 1825px;
+    background-image: url("../../images/kienthuc/Group2.png");
+    background-size: contain;
+}
+.bubbles {
+    position: absolute;
+    width: 270px;
+    height: 646.96px;
+    top: -375px;
+    left: 1127px;
+}
+.robot {
+    position: absolute;
+    width: 285.4px;
+    height: 333.78px;
+    top: 184px;
+    left: -129px;
+}
+.box1 {
+    position: absolute;
+    width: 606px;
+    height: 69px;
+    top: 42px;
+    left: 361px;
+    background-image: url("../../images/kienthuc/image 24.png");
+    background-size: contain;
+}
+.box1 p {
+    position: absolute;
+    width: 570px;
+    height: 53px;
+    top: 16px;
+    left: 18px;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+.box2 {
+    position: absolute;
+    width: 310px;
+    height: 174px;
+    top: 209px;
+    left: 177px;
+    background-image: url("../../images/kienthuc/image 25.png");
+    background-size: contain;
+}
+.box2 p {
+    position: absolute;
+    width: 269px;
+    height: 153px;
+    top: 20px;
+    left: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+.box3 {
+    position: absolute;
+    width: 324px;
+    height: 247px;
+    top: 282px;
+    left: 772px;
+    background-image: url("../../images/kienthuc/image\ 26.png");
+    background-size: contain;
+}
+.box3 p {
+    position: absolute;
+    width: 266px;
+    height: 200px;
+    top: 24px;
+    left: 29px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+.box4 {
+    position: absolute;
+    width: 1148px;
+    height: 108px;
+    top: 560px;
+    left: 83px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #4E2A7E;
+    text-indent: 75px;
+}
+.moreboxes {
+    position: absolute;
+    width: 1521px;
+    height: 1130.93px;
+    top: 2439.09px;
+    background-image: url("../../images/kienthuc/Group3.png");
+    background-size: cover;
+}
+.star {
+    position: absolute;
+    width: 125px;
+    height: 165.44px;
+    top: -214px;
+    left: 1047.74px;
+}
+.hand {
+    position: absolute;
+    width: 316px;
+    height: 433.05px;
+    top: 874px;
+    left: 1205px;
+}
+.box5 ul,.box6 ul,.box7 ul,.box8 ul {
+    padding-inline-start: 45px;
+}
+.box5 {
+    position: absolute;
+    width: 384.0072326660156px;
+    height: 549.40234375px;
+    top: 237px;
+    left: 94.26px;
+    border-radius: 35px;
+    background-color: #F7D6F1;
+}
+.box5 .words {
+    position: absolute;
+    width: 324.8520812988281px;
+    height: 516.9108276367188px;
+    top: 43.32px;
+    left: 33.09px;
+    font-size: 35px;
+}
+.box5 .words p {
+    font-weight: 700;
+}
+.box5 .words li {
+    font-weight: 400;
+}
+.box6 {
+    position: absolute;
+    width: 384.0072326660156px;
+    height: 549.40234375px;
+    top: 237px;
+    left: 567.5px;
+    border-radius: 35px;
+    background-color: #F7D6F1;
+}
+.box6 .words {
+    position: absolute;
+    width: 324.8520812988281px;
+    height: 516.9108276367188px;
+    top: 43.32px;
+    left: 33.09px;
+    font-size: 35px;
+}
+.box6 .words p {
+    font-weight: 700;
+}
+.box6 .words li {
+    font-weight: 400;
+}
+.box7 {
+    position: absolute;
+    width: 384.0072326660156px;
+    height: 549.40234375px;
+    top: 237px;
+    left: 1040.74px;
+    border-radius: 35px;
+    background-color: #F7D6F1;
+}
+.box7 .words {
+    position: absolute;
+    width: 324.8520812988281px;
+    height: 516.9108276367188px;
+    top: 43.32px;
+    left: 33.09px;
+    font-size: 35px;
+}
+.box7 .words p {
+    font-weight: 700;
+}
+.box7 .words li {
+    font-weight: 400;
+}
+.pc {
+    position: absolute;
+    width: 256.6493835449219px;
+    height: 205.2693634033203px;
+    top: 658.87px;
+    left: 408.25px;
+}
+.cpu {
+    position: absolute;
+    width: 284.07318115234375px;
+    height: 233.3061981201172px;
+    top: 658.85px;
+    left: 898.56px;
+}
+.git {
+    position: absolute;
+    width: 1521px;
+    height: 926px;
+    top: 3525px;
+    background-image: url("../../images/kienthuc/image 21.png");
+    background-size: cover;
+}
+.box8 {
+    position: absolute;
+    width: 684px;
+    height: 757px;
+    top: 103px;
+    left: 81px;
+    border: 5px solid #485B7F;
+    border-radius: 50px;
+}
+.box8 .words {
+    position: absolute;
+    width: 640px;
+    height: 679px;
+    top: 39px;
+    left: 26px;
+    color: #FFFFFF;
+}
+.box8 .words h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+.box8 .words li {
+    font-weight: 500;
+    font-size: 32px;
+}
+.box8 .words p {
+    font-weight: 500;
+    font-size: 32px;
+    text-indent: 100px;
+}
