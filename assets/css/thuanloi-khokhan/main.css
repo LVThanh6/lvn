@@ -1,7 +1,8 @@
 body{
     min-width: 1440px;
-    max-width: 100%;
+    max-width: 1440px;
 }
+
 #header {
     position: fixed;
     top: 0px;
@@ -297,7 +298,7 @@ body{
 .others{
     position: relative;
     top: 260.48px;
-    width: 2295px;
+    width: 1440px;
     height: 1182px;
     background-image: url(/assets/images/thuanloi/IMG_0433.png);
     background-size: 65%;
@@ -388,15 +389,16 @@ body{
     top: 618px;
 }
 .footer{
-    width: 2852.44px;
+    width:1440px;
     height: 1585px;
     background-image: url(/assets/images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 23.23.55\ 2.png);
     background-size: 100%;
     position: relative;
     top: 300px;
+    min-width: 1440px;
 }
 .footer-back{
-    width: 1585px;
+    width: 1440px;
     height: 1585px;
     background-image: url(/assets/images/thuanloi/IMG_0455.png);
     background-size: 100%;

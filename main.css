@@ -1,14 +1,9 @@
-@ -0,0 +1,73 @@
+
 
 *{
     margin: 0;
     padding: 0;
    
-}
-html {
-   
-}
-body{
 }
 
 
@@ -50,9 +45,7 @@ body{
     width: 140px;
     height: 42px;
     border-radius: 40px;
-  
 }
-
 .header-onne button a {
     font-weight: 500;
     font-size: 24px;
