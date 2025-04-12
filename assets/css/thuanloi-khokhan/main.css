@@ -1,6 +1,10 @@
 body{
-    min-width: 1440px;
-    max-width: 1440px;
+   position: relative;
+   min-width: 1440px;
+   width: 100%;
+   height: 100%;
+   background-color: #ffffff;
+   padding: 0;
 }
 
 #header {
@@ -50,154 +54,208 @@ body{
     color: #000000;
     text-decoration: none;
 }
+
 .container{
-    margin-top: 90px;
-    background-image: url(/assets/images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 13.07.59\ 1.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.slider-logo-img{
-    width: 469.29px;
-    height: 764px;
-    position: absolute;
-    right: 25.71px;
-    bottom: 36px;
-}
-.slider{
     position: relative;
+    width: 100%;
+    margin-left: -8px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 90px;
+    
+  
+}
+
+.slider{
+    position: absolute;
+    width: 100%;
+    min-width: 1440px;
     height: 828px;
 }
-.slider-head-img{
-    width: 943.5px;
-    height: 372.5px;
+
+.slider-background{
+    width: 100%;
+    height: 828px;
+}
+
+.slider-img-logo{
+    width: 944px;
+    height: 372px;
     position: absolute;
-    left: 199px;
+    left: 154px;
     top: 93px;
 }
-.slider-body-logoo{
-    width: 15%;
+
+.slider-container{
     position: absolute;
+    width: 1200px;
+    height: 172px;
+    display: flex;
+    top: 93px;
     left: 44px;
-    top: 219px;
 }
-.slider-body-contain-logoo{
-    width: 185.63px;
-    background-color: #D9D9D9;
-    height: 202px;
-    border-radius: 37px 0px 0px 37px;
+
+
+.slider-img-icon-1{
+    width: 309px;
+    height: 325px;
+   position: absolute;
+   top: 118px;
+    left: -28px;
 }
+
+.slider-img-icon-2{
+    width: 470px;
+    height: 764px;
+    position: absolute;
+    top: -20px;
+    left: 926px;
+}
+
 .slider-body-content{
-    background-color: #D9D9D9;
-    width: 354px;
+    position: absolute;
+    display: flex;
+    width:1116px;
     height: 202px;
-    margin-right: 106px;
-    border-radius: 0px 37px 37px 0px;
+    z-index: 2;
+    top: 470px;
+    left: 56px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
 }
-.slider-p{
-    font-size: 40px;
-    color: #2E596A;
+.slider-body-content div{
+    width: 532px;
+    height: 202px;
+    display: flex;
+    
 }
 .slider-p-logo{
-    width: 71.7px;
-    height: 39px;
-    margin-left: 235px;
+    width: 222px;
+    height: 202px;
 }
-.slider-body-contain{
-    display: flex;
-    position: absolute;
-    bottom: 64px;
-    left: 76px;
+
+.slider-body-content1{
+    background-color: #D9D9D9;
+    border-style: none;
+    border-radius: 37px;
+}
+.slider-body-content2{
+    background-color: #D9D9D9;
+    border-style: none;
+    border-radius: 37px;
+}
+.slider-body-content1 div{
+    width: 354px;
+    height: 202px;
+}
+.slider-body-content2 div{
+    width: 354px;
+    height: 202px;
+}
+.slider-body-content1 div img{
+    width: 72px;
+    height: 40px;
+}
+.slider-body-content2 div img{
+    width: 72px;
+    height: 40px;
+}
+.slider-p{
+    color: #2E596A;
+    font-size: 36px;
+}
+.slider-body-content div div{
+    margin-top: 44px;
+}
+
+.slider-body-contain-logo{
+    margin-top: 76px;
+    margin-left: -14px;
 }
 .thuanloi{
-    width: 1409.29px;
+    width: 1410px;
     height: 324px;
-    background-image: url(/assets/images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 22.21.03\ 1.png);
-    background-size: 100%;
-    position: relative;
-    left: 59px;
+    position: absolute;
+    top: 888px;
+    left:60px;
+    border-style:none ;
+    border-radius: 37px;
+}
+.thuanloi-background{
+    width: 1410px;
+    height: 324px;
 }
 .thuanloi-head{
-    width: 359px;
-    height: 93px;
-    border-radius: 37px;
-    background-color: rgba(0, 0, 0, 0.25);
+    width: 360px;
+    height: 92px;
     position: absolute;
-    left: 56px;
+    left: 40px;
     top: 112px;
-    display: flex
-; z-index: 3;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
     align-items: center;
-    justify-content: space-around;
-}
-
-.thuanloi-head-img{
-    width: 288.45px;
-    height: 60px; 
-}
-.thuanloi-contain{
-    background-color: #C9D6F1;
-    width: 401px;
-    height: 128px;
+    justify-content: center;
     border-radius: 37px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.thuanloi-container{
-    width: 1043px;
-    height: 289px;
-    display: flex;
-    position: absolute;
-    flex-wrap: wrap;
-    left: 420px;
-    justify-content: space-evenly;
-    align-items: end;
-    
-}
-.thuanloi-content{
-    font-size: 24px;
-    font-weight: 550;
-}
-
-.thuanloi-logo{
-    width: 269px;
-    height: 218px;
-    position: absolute;
-    top: 50px;
-    left: 305px;
+    border-style:none ;
     z-index: 2;
 }
-.thuanloi-logo-img{
-    width: 97.94px;
-    height: 91.82px;
+.thuanloi-head-img{
+   
+    width: 288x;
+    height: 60px;
+}
+.thuanloi-container{
     position: absolute;
+    display: flex;
+    left: 508px;
+    top: 20px;
+    width: 864px;
+    height: 280px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+.thuanloi-container div{
+    width: 400px;
+    height: 128px;
+    background-color: #C9D6F1;
+    border-radius: 37px;
+    border-style: none;
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.thuanloi-logo-img{
+    width: 98px;
+    height: 92px;
+    margin-top: 132px;
+    margin-left: -96px;
+    z-index: 2;
+}
+.thuanloi-content{
+    width: 240px;
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.iimg1{
-    left: 467px;
-    top: 89px;
-    z-index: 3;
-}
-.iimg3{
-    left: 458px;
-    top: 265px;
-    z-index: 3;
-}
-.iimg2{
-    top: 89px;
-    left: 909px;
-    z-index: 3;
-}
-.iimg4{
-    left: 918px;
-    top: 257px;
-    z-index: 3;
+.thuanloi-tt-img{
+    width: 268px;
+    height: 218px;
+    position: absolute;
+    top: 54px;
+    left: 316px;
+    z-index: 1;
 }
 .ketluan{
     width: 1384.38px;
     height: 444px;
-    position: relative;
-    top: 95px;
+    position: absolute;
+    top: 1276px;
     background-image: url(/assets/images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 22.53.41\ 1.png);
     background-size: 100%;
     left: 71px;
@@ -263,8 +321,8 @@ body{
     height: 324px;
     background-image: url(/assets/images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 21.49.32\ 1.png);
     background-size: 100%;
-    position: relative;
-    top: 190px;
+    position: absolute;
+    top: 1766px;
     left: 80px;
 }
 .khokhan-container{
@@ -295,23 +353,29 @@ body{
     width: 242.37px;
     height: 40px; 
 }
+.khokhan-background{
+    width: 1382.93px;
+    height: 324px;
+}
 .others{
-    position: relative;
-    top: 260.48px;
+    position: absolute;
+    top: 2156px;
     width: 1440px;
     height: 1182px;
     background-image: url(/assets/images/thuanloi/IMG_0433.png);
     background-size: 65%;
     background-repeat: no-repeat;
+    left: 24px;
+    display: flex;
 }
 .others-tables{
-    position: absolute;
-    width: 1454px;
+   position: absolute;
+    width:  1432px;
     height: 756px;
     top: 145px;
-    right: 828px;
     display: flex;
     justify-content: space-evenly;
+    left: 4px;
 }
 .others-table{
     width: 346px;
@@ -388,18 +452,22 @@ body{
     left: 1060px;
     top: 618px;
 }
+.others-background{
+    width: 1440px;
+    height: 1182px;
+}
 .footer{
     width:1440px;
     height: 1585px;
     background-image: url(/assets/images/thuanloi/Ảnh\ màn\ hình\ 2025-03-28\ lúc\ 23.23.55\ 2.png);
     background-size: 100%;
-    position: relative;
-    top: 300px;
+    position: absolute;
+    top: 3424px;
     min-width: 1440px;
 }
 .footer-back{
     width: 1440px;
-    height: 1585px;
+    height: auto;
     background-image: url(/assets/images/thuanloi/IMG_0455.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -476,4 +544,8 @@ body{
     position: absolute;
     left: 1199px;
     top: 1274px;
+}
+.footer-background{
+    width:1440px;
+    height: 1585px;
 }
