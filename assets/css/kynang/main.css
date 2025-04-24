@@ -419,4 +419,12 @@
     top: 3815px;
     left: 487px;
 }
-
+#tienganh{
+    content:"Ngôn ngữ chính trong lập trình và tài \A liệu kỹ thuật . Nắm vững từ vựng và kỹ \A năng đọc hiểu tài liệu chuyên ngành \A giúp bạn tiếp cận kiến thức dễ dàng \A hơn";
+    width: auto;
+    height: 132px;
+    z-index: 15;
+    display: block;
+    text-align: center;     
+    word-wrap: break-word;
+}
