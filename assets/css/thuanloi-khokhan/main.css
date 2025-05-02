@@ -553,3 +553,7 @@ body{
     width:1440px;
     height: 1585px;
 }
+#footer{
+    position: absolute;
+    bottom: -4200px;
+}

@@ -58,4 +58,7 @@
 #nut-trang{
     background-color: #FF69D9;
 }
+#footer{
+    z-index: 5;
+}
 

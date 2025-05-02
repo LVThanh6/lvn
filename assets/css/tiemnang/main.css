@@ -911,6 +911,10 @@ h1 {
         font-size: 22px;
         content: "Technical Lead \A(10+ năm kinh nghiệm)\A\A Việt Nam \A 60-100 triệu VNĐ/tháng\A\A Quốc tế (Mỹ, Châu Âu)\A 150,000-200,000 USD/năm\A\A✅ Quản lý dự án, ảnh\A hưởng lớn, lương rất cao \A❌ Áp lực cực lớn, \Aít coding, nhiều quản lý";
     }
+    #footer{
+        position: absolute;
+        bottom: -4200px;
+    }
 
 
 

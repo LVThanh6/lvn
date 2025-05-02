@@ -428,3 +428,7 @@
     text-align: center;     
     word-wrap: break-word;
 }
+#footer{
+    position: absolute;
+    bottom: -4200px;
+}

@@ -319,5 +319,9 @@ td div{
     top: -26px;
     left: 356px;
     z-index: -1;
+}
 
+#footer{
+    position: absolute;
+    bottom: -4200px;
 }

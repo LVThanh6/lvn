@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Tải nội dung footer từ file footer.html
-  fetch("../../components/footer.html")
+  fetch("../../pages/components/footer.html")
     .then((response) => {
       if (!response.ok) {
         throw new Error(`Lỗi HTTP! Mã trạng thái: ${response.status}`);
